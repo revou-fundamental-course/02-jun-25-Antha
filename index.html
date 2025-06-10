@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School Profile</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Our Profile</a></li>
+        <li><a href="#contact">Message Us</a></li>
+      </ul>
+    </nav>
+    <div id="banner">
+      <h1 id="welcomeText">Hi Guest</h1>
+    </div>
+  </header>
+  <main>
+    <section id="fac">
+        <h2>Our Facilitation</h2>
+        <div class="items">
+            <div class="item">
+                <div class="circle c1"></div>
+                <p>Professional Teacher</p>
+            </div>
+            <div class="item">
+                <div class="circle c2"></div>
+                <p>Sport Field</p>
+            </div>
+            <div class="item">
+                <div class="circle c3"></div>
+                <p>Classroom</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+      <h2>Message Us</h2>
+      <div id="contact-container">
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+        <div id="formOutput">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
