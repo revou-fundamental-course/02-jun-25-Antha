@@ -60,7 +60,11 @@ form label, form input, form textarea, form button {
 #fac {
   background: lightblue;
   text-align: center;
-  padding-top: 5px;
+  padding: 25px;
+}
+
+#fac h2{
+  margin-bottom: 20px;
 }
 
 .items {
