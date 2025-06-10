@@ -34,6 +34,9 @@ nav a:hover {
   text-decoration: underline;
 }
 
+#welcomeText{
+  background-color: rgb(213, 150, 73);
+}
 
 #banner {
   background: url("../img/background.jpeg");
